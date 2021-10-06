@@ -1,24 +1,28 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <MuziekCabine />
+    <DirigentenRuimte />
+    <Chatbot/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MuziekCabine from './components/MuziekCabine.vue'
+import DirigentenRuimte from './components/DirigentenRuimte.vue'
+import Chatbot from './components/Chatbot.vue'
 
 export default {
-  name: 'App',
+  name: 'app',
   components: {
-    HelloWorld
+    MuziekCabine,
+    DirigentenRuimte,
+    Chatbot,
   }
 }
 </script>
-
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
