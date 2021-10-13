@@ -8,9 +8,11 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@kommunicate/kommunicate-chatbot-plugin": "^0.0.5",
     "@magenta/music": "^1.23.0",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-i18n": "^8.26.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

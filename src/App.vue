@@ -1,8 +1,10 @@
 <template>
   <div id="app">
+    <LanguageSwitcher/>
     <MuziekCabine />
     <DirigentenRuimte />
     <Chatbot/>
+
   </div>
 </template>
 
@@ -10,13 +12,16 @@
 import MuziekCabine from './components/MuziekCabine.vue'
 import DirigentenRuimte from './components/DirigentenRuimte.vue'
 import Chatbot from './components/Chatbot.vue'
+import LanguageSwitcher from './components/LanguageSwitcher.vue'
 
 export default {
   name: 'app',
   components: {
+    LanguageSwitcher,
     MuziekCabine,
     DirigentenRuimte,
     Chatbot,
+
   }
 }
 </script>

@@ -1,7 +1,9 @@
 <template>
-<div id="app">
-  <h1>Dirigentenruimte  </h1>
-  <a href="url">https://semiconductor.withgoogle.com/</a>
+<div>
+<h1>
+  {{ $t('dirigent') }}
+</h1>
+<a href="url">https://semiconductor.withgoogle.com/</a>
 </div>
 </template>
 
